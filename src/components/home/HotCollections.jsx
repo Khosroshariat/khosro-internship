@@ -21,6 +21,7 @@ const HotCollections = () => {
     getData();
     Aos.init();
   }, [])
+  
 
   setTimeout(() => {
     setLoading(false)
